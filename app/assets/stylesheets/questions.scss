@@ -1,0 +1,36 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+  //
+
+  .container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+    h1{
+      margin-top:50%;
+    }
+  }
+
+  .cards-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    h1{
+      font-size:18px;
+      font-weight:300;
+    }
+    .cards .card{
+      border-left:10px solid grey;
+      margin:20px;
+      margin-left:0;
+      padding:10px;
+    }
+    .cards #coach{
+      background-color: #F5F5DC;
+    }
+  }
+
